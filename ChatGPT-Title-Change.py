@@ -11,7 +11,7 @@ creds = Credentials.from_service_account_file('/Users/johnoren/PycharmProjects/p
 client = gspread.authorize(creds)
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Access the spreadsheet using the provided URL
 spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1pSnckqRjqTht9b7AUUfkk3CWvNSVaoGfVRN2TyJCmPE/edit#gid=0'
